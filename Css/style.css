@@ -131,25 +131,8 @@ body{
      -moz-border-radius: 30px;
      -ms-border-radius: 30px;
      -o-border-radius: 30px;
-}
-  
-   .profile-a{
-      text-align: center;
    }
-  
-  .profile-a img{
-      width: 200px;
-      height: 200px;
-      border: 5px solid rgb(7, 7, 7);
-      animation:glow 5s infinite;
-      border-radius: 30px;
-      -webkit-border-radius: 30px;
-      -moz-border-radius: 30px;
-      -ms-border-radius: 30px;
-      -o-border-radius: 30px;
-      -webkit-animation:glow 5s infinite;
-}
-
+   
    .table-container{
       display: flex;
       justify-content: center;
@@ -164,11 +147,28 @@ body{
       -moz-border-radius: 30px;
       -ms-border-radius: 30px;
       -o-border-radius: 30px;
-}
+   }
+
+   .profile-a{
+      text-align: center;
+   }
+
+   .profile-a img{
+      width: 200px;
+      height: 200px;
+      border: 5px solid rgb(7, 7, 7);
+      animation:glow 5s infinite;
+      border-radius: 30px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      -ms-border-radius: 30px;
+      -o-border-radius: 30px;
+      -webkit-animation:glow 5s infinite;
+   }
 
    @keyframes glow{
       0% {
-          box-shadow: 0 0 -30px #f75003;
+          box-shadow: 0 0 -30px #bb9a8b;
       }
   
       20% {
@@ -190,7 +190,7 @@ body{
       100% {
           box-shadow: 0 0 40px #f00707;
       }
-  }
+   }
 
 
 
