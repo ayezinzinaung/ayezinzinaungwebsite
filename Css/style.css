@@ -210,21 +210,6 @@ body{
       background-color: #e7caca;
    }
 
-   .skill{
-      height: 600px;
-      position: relative;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      background-color: #e7caca;
-   }
-
-   .skill-body{
-      text-align: center;
-      margin-bottom: 40px;
-      margin-top: 5px;
-   }
-
    * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
@@ -283,10 +268,6 @@ img {
 }
 
 /* Fading animation */
-
-.fade{
-   text-align: center;
-}
 
 .fade {
       text-align: center;
