@@ -232,6 +232,22 @@ img {
   margin: auto;
 }
 
+.skill-container{
+   display: flex;
+   justify-content: center;
+}
+
+.skill{
+   text-align: center;
+   margin-top: 1px;
+   margin-bottom: 5px;
+   border-radius: 30px;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   -ms-border-radius: 30px;
+   -o-border-radius: 30px;
+}
+
 /* Caption text */
 .text {
   color: #f2f2f2;
